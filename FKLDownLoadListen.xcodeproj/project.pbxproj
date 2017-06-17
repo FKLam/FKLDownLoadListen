@@ -15,6 +15,16 @@
 		BC20AF071EF4C10000EE1461 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC20AF051EF4C10000EE1461 /* LaunchScreen.storyboard */; };
 		BC20AF121EF4C10000EE1461 /* FKLDownLoadListenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC20AF111EF4C10000EE1461 /* FKLDownLoadListenTests.m */; };
 		BC20AF1D1EF4C10000EE1461 /* FKLDownLoadListenUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC20AF1C1EF4C10000EE1461 /* FKLDownLoadListenUITests.m */; };
+		BC20AF331EF4C2F800EE1461 /* FKLDownLoadBaseTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BC20AF321EF4C2F800EE1461 /* FKLDownLoadBaseTVC.m */; };
+		BC20AF361EF4C33200EE1461 /* FKLAlbumTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BC20AF351EF4C33200EE1461 /* FKLAlbumTVC.m */; };
+		BC20AF391EF4C35500EE1461 /* FKLDownLoadedVoiceTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BC20AF381EF4C35500EE1461 /* FKLDownLoadedVoiceTVC.m */; };
+		BC20AF3C1EF4C37000EE1461 /* FKLDownLoadingTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BC20AF3B1EF4C37000EE1461 /* FKLDownLoadingTVC.m */; };
+		BC20AF3F1EF4C3D300EE1461 /* FKLDownLoadListernMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BC20AF3E1EF4C3D300EE1461 /* FKLDownLoadListernMainVC.m */; };
+		BC20AF4E1EF4D0C300EE1461 /* FKLDownLoadView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC20AF4D1EF4D0C300EE1461 /* FKLDownLoadView.m */; };
+		BC20AF5A1EF4D61900EE1461 /* FKLSementBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BC20AF531EF4D61900EE1461 /* FKLSementBarVC.m */; };
+		BC20AF5B1EF4D61900EE1461 /* FKLSegmentBarConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = BC20AF561EF4D61900EE1461 /* FKLSegmentBarConfigure.m */; };
+		BC20AF5C1EF4D61900EE1461 /* FKLSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BC20AF591EF4D61900EE1461 /* FKLSegmentBar.m */; };
+		BC20AF5F1EF4D68800EE1461 /* UIView+FKLSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BC20AF5E1EF4D68800EE1461 /* UIView+FKLSegmentBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +47,10 @@
 /* Begin PBXFileReference section */
 		BC20AEF41EF4C10000EE1461 /* FKLDownLoadListen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FKLDownLoadListen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC20AEF81EF4C10000EE1461 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BC20AEFA1EF4C10000EE1461 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		BC20AEFB1EF4C10000EE1461 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BC20AEFD1EF4C10000EE1461 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BC20AEFE1EF4C10000EE1461 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC20AEFA1EF4C10000EE1461 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
+		BC20AEFB1EF4C10000EE1461 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
+		BC20AEFD1EF4C10000EE1461 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../ViewController.h; sourceTree = "<group>"; };
+		BC20AEFE1EF4C10000EE1461 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../ViewController.m; sourceTree = "<group>"; };
 		BC20AF011EF4C10000EE1461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC20AF031EF4C10000EE1461 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC20AF061EF4C10000EE1461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +61,26 @@
 		BC20AF181EF4C10000EE1461 /* FKLDownLoadListenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FKLDownLoadListenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC20AF1C1EF4C10000EE1461 /* FKLDownLoadListenUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKLDownLoadListenUITests.m; sourceTree = "<group>"; };
 		BC20AF1E1EF4C10000EE1461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC20AF311EF4C2F800EE1461 /* FKLDownLoadBaseTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLDownLoadBaseTVC.h; sourceTree = "<group>"; };
+		BC20AF321EF4C2F800EE1461 /* FKLDownLoadBaseTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLDownLoadBaseTVC.m; sourceTree = "<group>"; };
+		BC20AF341EF4C33200EE1461 /* FKLAlbumTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLAlbumTVC.h; sourceTree = "<group>"; };
+		BC20AF351EF4C33200EE1461 /* FKLAlbumTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLAlbumTVC.m; sourceTree = "<group>"; };
+		BC20AF371EF4C35500EE1461 /* FKLDownLoadedVoiceTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLDownLoadedVoiceTVC.h; sourceTree = "<group>"; };
+		BC20AF381EF4C35500EE1461 /* FKLDownLoadedVoiceTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLDownLoadedVoiceTVC.m; sourceTree = "<group>"; };
+		BC20AF3A1EF4C37000EE1461 /* FKLDownLoadingTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLDownLoadingTVC.h; sourceTree = "<group>"; };
+		BC20AF3B1EF4C37000EE1461 /* FKLDownLoadingTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLDownLoadingTVC.m; sourceTree = "<group>"; };
+		BC20AF3D1EF4C3D300EE1461 /* FKLDownLoadListernMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLDownLoadListernMainVC.h; sourceTree = "<group>"; };
+		BC20AF3E1EF4C3D300EE1461 /* FKLDownLoadListernMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLDownLoadListernMainVC.m; sourceTree = "<group>"; };
+		BC20AF4C1EF4D0C300EE1461 /* FKLDownLoadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLDownLoadView.h; sourceTree = "<group>"; };
+		BC20AF4D1EF4D0C300EE1461 /* FKLDownLoadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLDownLoadView.m; sourceTree = "<group>"; };
+		BC20AF521EF4D61900EE1461 /* FKLSementBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLSementBarVC.h; sourceTree = "<group>"; };
+		BC20AF531EF4D61900EE1461 /* FKLSementBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLSementBarVC.m; sourceTree = "<group>"; };
+		BC20AF551EF4D61900EE1461 /* FKLSegmentBarConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLSegmentBarConfigure.h; sourceTree = "<group>"; };
+		BC20AF561EF4D61900EE1461 /* FKLSegmentBarConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLSegmentBarConfigure.m; sourceTree = "<group>"; };
+		BC20AF581EF4D61900EE1461 /* FKLSegmentBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLSegmentBar.h; sourceTree = "<group>"; };
+		BC20AF591EF4D61900EE1461 /* FKLSegmentBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLSegmentBar.m; sourceTree = "<group>"; };
+		BC20AF5D1EF4D68800EE1461 /* UIView+FKLSegmentBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FKLSegmentBar.h"; sourceTree = "<group>"; };
+		BC20AF5E1EF4D68800EE1461 /* UIView+FKLSegmentBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FKLSegmentBar.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +131,7 @@
 		BC20AEF61EF4C10000EE1461 /* FKLDownLoadListen */ = {
 			isa = PBXGroup;
 			children = (
-				BC20AEFA1EF4C10000EE1461 /* AppDelegate.h */,
-				BC20AEFB1EF4C10000EE1461 /* AppDelegate.m */,
-				BC20AEFD1EF4C10000EE1461 /* ViewController.h */,
-				BC20AEFE1EF4C10000EE1461 /* ViewController.m */,
-				BC20AF001EF4C10000EE1461 /* Main.storyboard */,
-				BC20AF031EF4C10000EE1461 /* Assets.xcassets */,
-				BC20AF051EF4C10000EE1461 /* LaunchScreen.storyboard */,
-				BC20AF081EF4C10000EE1461 /* Info.plist */,
+				BC20AF2A1EF4C22A00EE1461 /* Classes */,
 				BC20AEF71EF4C10000EE1461 /* Supporting Files */,
 			);
 			path = FKLDownLoadListen;
@@ -117,6 +140,10 @@
 		BC20AEF71EF4C10000EE1461 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BC20AF051EF4C10000EE1461 /* LaunchScreen.storyboard */,
+				BC20AF031EF4C10000EE1461 /* Assets.xcassets */,
+				BC20AF001EF4C10000EE1461 /* Main.storyboard */,
+				BC20AF081EF4C10000EE1461 /* Info.plist */,
 				BC20AEF81EF4C10000EE1461 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +165,125 @@
 				BC20AF1E1EF4C10000EE1461 /* Info.plist */,
 			);
 			path = FKLDownLoadListenUITests;
+			sourceTree = "<group>";
+		};
+		BC20AF2A1EF4C22A00EE1461 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BC20AF2B1EF4C22A00EE1461 /* FKLDownLoadListen */,
+				BC20AF2F1EF4C22A00EE1461 /* Other */,
+				BC20AF301EF4C22A00EE1461 /* Resource */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC20AF2B1EF4C22A00EE1461 /* FKLDownLoadListen */ = {
+			isa = PBXGroup;
+			children = (
+				BC20AF2C1EF4C22A00EE1461 /* Controller */,
+				BC20AF2D1EF4C22A00EE1461 /* Model */,
+				BC20AF2E1EF4C22A00EE1461 /* View */,
+			);
+			path = FKLDownLoadListen;
+			sourceTree = "<group>";
+		};
+		BC20AF2C1EF4C22A00EE1461 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC20AF311EF4C2F800EE1461 /* FKLDownLoadBaseTVC.h */,
+				BC20AF321EF4C2F800EE1461 /* FKLDownLoadBaseTVC.m */,
+				BC20AF341EF4C33200EE1461 /* FKLAlbumTVC.h */,
+				BC20AF351EF4C33200EE1461 /* FKLAlbumTVC.m */,
+				BC20AF371EF4C35500EE1461 /* FKLDownLoadedVoiceTVC.h */,
+				BC20AF381EF4C35500EE1461 /* FKLDownLoadedVoiceTVC.m */,
+				BC20AF3A1EF4C37000EE1461 /* FKLDownLoadingTVC.h */,
+				BC20AF3B1EF4C37000EE1461 /* FKLDownLoadingTVC.m */,
+				BC20AF3D1EF4C3D300EE1461 /* FKLDownLoadListernMainVC.h */,
+				BC20AF3E1EF4C3D300EE1461 /* FKLDownLoadListernMainVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BC20AF2D1EF4C22A00EE1461 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC20AF2E1EF4C22A00EE1461 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC20AF4C1EF4D0C300EE1461 /* FKLDownLoadView.h */,
+				BC20AF4D1EF4D0C300EE1461 /* FKLDownLoadView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC20AF2F1EF4C22A00EE1461 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				BC20AF4F1EF4D61900EE1461 /* Lib */,
+				BC20AEFA1EF4C10000EE1461 /* AppDelegate.h */,
+				BC20AEFB1EF4C10000EE1461 /* AppDelegate.m */,
+				BC20AEFD1EF4C10000EE1461 /* ViewController.h */,
+				BC20AEFE1EF4C10000EE1461 /* ViewController.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		BC20AF301EF4C22A00EE1461 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		BC20AF4F1EF4D61900EE1461 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				BC20AF501EF4D61900EE1461 /* FKLSegmentBar */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		BC20AF501EF4D61900EE1461 /* FKLSegmentBar */ = {
+			isa = PBXGroup;
+			children = (
+				BC20AF511EF4D61900EE1461 /* Controller */,
+				BC20AF541EF4D61900EE1461 /* Model */,
+				BC20AF571EF4D61900EE1461 /* View */,
+			);
+			path = FKLSegmentBar;
+			sourceTree = "<group>";
+		};
+		BC20AF511EF4D61900EE1461 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC20AF521EF4D61900EE1461 /* FKLSementBarVC.h */,
+				BC20AF531EF4D61900EE1461 /* FKLSementBarVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BC20AF541EF4D61900EE1461 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC20AF551EF4D61900EE1461 /* FKLSegmentBarConfigure.h */,
+				BC20AF561EF4D61900EE1461 /* FKLSegmentBarConfigure.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC20AF571EF4D61900EE1461 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC20AF581EF4D61900EE1461 /* FKLSegmentBar.h */,
+				BC20AF591EF4D61900EE1461 /* FKLSegmentBar.m */,
+				BC20AF5D1EF4D68800EE1461 /* UIView+FKLSegmentBar.h */,
+				BC20AF5E1EF4D68800EE1461 /* UIView+FKLSegmentBar.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +419,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC20AF5B1EF4D61900EE1461 /* FKLSegmentBarConfigure.m in Sources */,
+				BC20AF5A1EF4D61900EE1461 /* FKLSementBarVC.m in Sources */,
+				BC20AF331EF4C2F800EE1461 /* FKLDownLoadBaseTVC.m in Sources */,
+				BC20AF3F1EF4C3D300EE1461 /* FKLDownLoadListernMainVC.m in Sources */,
 				BC20AEFF1EF4C10000EE1461 /* ViewController.m in Sources */,
+				BC20AF4E1EF4D0C300EE1461 /* FKLDownLoadView.m in Sources */,
 				BC20AEFC1EF4C10000EE1461 /* AppDelegate.m in Sources */,
+				BC20AF5C1EF4D61900EE1461 /* FKLSegmentBar.m in Sources */,
+				BC20AF5F1EF4D68800EE1461 /* UIView+FKLSegmentBar.m in Sources */,
+				BC20AF391EF4C35500EE1461 /* FKLDownLoadedVoiceTVC.m in Sources */,
+				BC20AF361EF4C33200EE1461 /* FKLAlbumTVC.m in Sources */,
 				BC20AEF91EF4C10000EE1461 /* main.m in Sources */,
+				BC20AF3C1EF4C37000EE1461 /* FKLDownLoadingTVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +663,7 @@
 				BC20AF231EF4C10000EE1461 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC20AF241EF4C10000EE1461 /* Build configuration list for PBXNativeTarget "FKLDownLoadListenTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +672,7 @@
 				BC20AF261EF4C10000EE1461 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC20AF271EF4C10000EE1461 /* Build configuration list for PBXNativeTarget "FKLDownLoadListenUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +681,7 @@
 				BC20AF291EF4C10000EE1461 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
