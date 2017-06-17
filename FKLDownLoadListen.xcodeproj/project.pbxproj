@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03F8BE5FA250EDFEAC4EB6E9 /* Pods_FKLDownLoadListenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAAD0660B6D6232DB5022F42 /* Pods_FKLDownLoadListenUITests.framework */; };
+		8870AFF7FF20C5396304C940 /* Pods_FKLDownLoadListen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3314032DC54B45149C6A7523 /* Pods_FKLDownLoadListen.framework */; };
+		93A0792BCE26A3A43CE57EC9 /* Pods_FKLDownLoadListenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2658318E942AE2896598F8 /* Pods_FKLDownLoadListenTests.framework */; };
 		BC20AEF91EF4C10000EE1461 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC20AEF81EF4C10000EE1461 /* main.m */; };
 		BC20AEFC1EF4C10000EE1461 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC20AEFB1EF4C10000EE1461 /* AppDelegate.m */; };
 		BC20AEFF1EF4C10000EE1461 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC20AEFE1EF4C10000EE1461 /* ViewController.m */; };
@@ -25,6 +28,13 @@
 		BC20AF5B1EF4D61900EE1461 /* FKLSegmentBarConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = BC20AF561EF4D61900EE1461 /* FKLSegmentBarConfigure.m */; };
 		BC20AF5C1EF4D61900EE1461 /* FKLSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BC20AF591EF4D61900EE1461 /* FKLSegmentBar.m */; };
 		BC20AF5F1EF4D68800EE1461 /* UIView+FKLSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BC20AF5E1EF4D68800EE1461 /* UIView+FKLSegmentBar.m */; };
+		BCFE6E381EF53F9A00CB6F24 /* FKLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFE6E371EF53F9A00CB6F24 /* FKLSessionManager.m */; };
+		BCFE6E401EF54A9C00CB6F24 /* FKLTodayFireDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFE6E3F1EF54A9C00CB6F24 /* FKLTodayFireDataTool.m */; };
+		BCFE6E431EF54ACC00CB6F24 /* FKLTodayFireMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFE6E421EF54ACC00CB6F24 /* FKLTodayFireMainVC.m */; };
+		BCFE6E461EF54AF300CB6F24 /* FKLTodayFireVideoListTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFE6E451EF54AF300CB6F24 /* FKLTodayFireVideoListTVC.m */; };
+		BCFE6E491EF5705200CB6F24 /* FKLCategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFE6E481EF5705200CB6F24 /* FKLCategoryModel.m */; };
+		BCFE6E4C1EF5707400CB6F24 /* FKLDownLoadVoiceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFE6E4B1EF5707400CB6F24 /* FKLDownLoadVoiceModel.m */; };
+		BCFE6E4F1EF570A000CB6F24 /* FKLTodayFireVoiceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFE6E4E1EF570A000CB6F24 /* FKLTodayFireVoiceCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +55,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		174D2ED2F8D972420A0E5B43 /* Pods-FKLDownLoadListenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FKLDownLoadListenTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FKLDownLoadListenTests/Pods-FKLDownLoadListenTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3314032DC54B45149C6A7523 /* Pods_FKLDownLoadListen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FKLDownLoadListen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4583F4A4F65FFD1606EE6943 /* Pods-FKLDownLoadListenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FKLDownLoadListenTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FKLDownLoadListenTests/Pods-FKLDownLoadListenTests.release.xcconfig"; sourceTree = "<group>"; };
+		92109D8A0E49B7DBF01ADB89 /* Pods-FKLDownLoadListen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FKLDownLoadListen.release.xcconfig"; path = "Pods/Target Support Files/Pods-FKLDownLoadListen/Pods-FKLDownLoadListen.release.xcconfig"; sourceTree = "<group>"; };
+		BAAD0660B6D6232DB5022F42 /* Pods_FKLDownLoadListenUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FKLDownLoadListenUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC20AEF41EF4C10000EE1461 /* FKLDownLoadListen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FKLDownLoadListen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC20AEF81EF4C10000EE1461 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BC20AEFA1EF4C10000EE1461 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +96,24 @@
 		BC20AF591EF4D61900EE1461 /* FKLSegmentBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLSegmentBar.m; sourceTree = "<group>"; };
 		BC20AF5D1EF4D68800EE1461 /* UIView+FKLSegmentBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FKLSegmentBar.h"; sourceTree = "<group>"; };
 		BC20AF5E1EF4D68800EE1461 /* UIView+FKLSegmentBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FKLSegmentBar.m"; sourceTree = "<group>"; };
+		BCFE6E361EF53F9A00CB6F24 /* FKLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLSessionManager.h; sourceTree = "<group>"; };
+		BCFE6E371EF53F9A00CB6F24 /* FKLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLSessionManager.m; sourceTree = "<group>"; };
+		BCFE6E3E1EF54A9C00CB6F24 /* FKLTodayFireDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLTodayFireDataTool.h; sourceTree = "<group>"; };
+		BCFE6E3F1EF54A9C00CB6F24 /* FKLTodayFireDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLTodayFireDataTool.m; sourceTree = "<group>"; };
+		BCFE6E411EF54ACC00CB6F24 /* FKLTodayFireMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLTodayFireMainVC.h; sourceTree = "<group>"; };
+		BCFE6E421EF54ACC00CB6F24 /* FKLTodayFireMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLTodayFireMainVC.m; sourceTree = "<group>"; };
+		BCFE6E441EF54AF300CB6F24 /* FKLTodayFireVideoListTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLTodayFireVideoListTVC.h; sourceTree = "<group>"; };
+		BCFE6E451EF54AF300CB6F24 /* FKLTodayFireVideoListTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLTodayFireVideoListTVC.m; sourceTree = "<group>"; };
+		BCFE6E471EF5705200CB6F24 /* FKLCategoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLCategoryModel.h; sourceTree = "<group>"; };
+		BCFE6E481EF5705200CB6F24 /* FKLCategoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLCategoryModel.m; sourceTree = "<group>"; };
+		BCFE6E4A1EF5707400CB6F24 /* FKLDownLoadVoiceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLDownLoadVoiceModel.h; sourceTree = "<group>"; };
+		BCFE6E4B1EF5707400CB6F24 /* FKLDownLoadVoiceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLDownLoadVoiceModel.m; sourceTree = "<group>"; };
+		BCFE6E4D1EF570A000CB6F24 /* FKLTodayFireVoiceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLTodayFireVoiceCell.h; sourceTree = "<group>"; };
+		BCFE6E4E1EF570A000CB6F24 /* FKLTodayFireVoiceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLTodayFireVoiceCell.m; sourceTree = "<group>"; };
+		CF2658318E942AE2896598F8 /* Pods_FKLDownLoadListenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FKLDownLoadListenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8FC3AAAD9B1814B680F8417 /* Pods-FKLDownLoadListenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FKLDownLoadListenUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FKLDownLoadListenUITests/Pods-FKLDownLoadListenUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ED0A1347C663D50661CD8FD6 /* Pods-FKLDownLoadListenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FKLDownLoadListenUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FKLDownLoadListenUITests/Pods-FKLDownLoadListenUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE03F9F8243D01308BEB13F0 /* Pods-FKLDownLoadListen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FKLDownLoadListen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FKLDownLoadListen/Pods-FKLDownLoadListen.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8870AFF7FF20C5396304C940 /* Pods_FKLDownLoadListen.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93A0792BCE26A3A43CE57EC9 /* Pods_FKLDownLoadListenTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,12 +137,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03F8BE5FA250EDFEAC4EB6E9 /* Pods_FKLDownLoadListenUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		61D42956B33CCF1DD11ADB59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE03F9F8243D01308BEB13F0 /* Pods-FKLDownLoadListen.debug.xcconfig */,
+				92109D8A0E49B7DBF01ADB89 /* Pods-FKLDownLoadListen.release.xcconfig */,
+				174D2ED2F8D972420A0E5B43 /* Pods-FKLDownLoadListenTests.debug.xcconfig */,
+				4583F4A4F65FFD1606EE6943 /* Pods-FKLDownLoadListenTests.release.xcconfig */,
+				ED0A1347C663D50661CD8FD6 /* Pods-FKLDownLoadListenUITests.debug.xcconfig */,
+				E8FC3AAAD9B1814B680F8417 /* Pods-FKLDownLoadListenUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AFF9C637F6518F0FDEF73FF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3314032DC54B45149C6A7523 /* Pods_FKLDownLoadListen.framework */,
+				CF2658318E942AE2896598F8 /* Pods_FKLDownLoadListenTests.framework */,
+				BAAD0660B6D6232DB5022F42 /* Pods_FKLDownLoadListenUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BC20AEEB1EF4C10000EE1461 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +174,8 @@
 				BC20AF101EF4C10000EE1461 /* FKLDownLoadListenTests */,
 				BC20AF1B1EF4C10000EE1461 /* FKLDownLoadListenUITests */,
 				BC20AEF51EF4C10000EE1461 /* Products */,
+				61D42956B33CCF1DD11ADB59 /* Pods */,
+				AFF9C637F6518F0FDEF73FF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -170,6 +231,7 @@
 		BC20AF2A1EF4C22A00EE1461 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				BCFE6E391EF543B300CB6F24 /* FKLTodayFire */,
 				BC20AF2B1EF4C22A00EE1461 /* FKLDownLoadListen */,
 				BC20AF2F1EF4C22A00EE1461 /* Other */,
 				BC20AF301EF4C22A00EE1461 /* Resource */,
@@ -223,6 +285,8 @@
 		BC20AF2F1EF4C22A00EE1461 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				BCFE6E351EF53F6200CB6F24 /* Network */,
+				BCFE6E341EF53F3B00CB6F24 /* Category */,
 				BC20AF4F1EF4D61900EE1461 /* Lib */,
 				BC20AEFA1EF4C10000EE1461 /* AppDelegate.h */,
 				BC20AEFB1EF4C10000EE1461 /* AppDelegate.m */,
@@ -286,6 +350,73 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		BCFE6E341EF53F3B00CB6F24 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		BCFE6E351EF53F6200CB6F24 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BCFE6E361EF53F9A00CB6F24 /* FKLSessionManager.h */,
+				BCFE6E371EF53F9A00CB6F24 /* FKLSessionManager.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		BCFE6E391EF543B300CB6F24 /* FKLTodayFire */ = {
+			isa = PBXGroup;
+			children = (
+				BCFE6E3D1EF54A7700CB6F24 /* DataTool */,
+				BCFE6E3A1EF543B300CB6F24 /* Controller */,
+				BCFE6E3B1EF543B300CB6F24 /* Model */,
+				BCFE6E3C1EF543B300CB6F24 /* View */,
+			);
+			path = FKLTodayFire;
+			sourceTree = "<group>";
+		};
+		BCFE6E3A1EF543B300CB6F24 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BCFE6E411EF54ACC00CB6F24 /* FKLTodayFireMainVC.h */,
+				BCFE6E421EF54ACC00CB6F24 /* FKLTodayFireMainVC.m */,
+				BCFE6E441EF54AF300CB6F24 /* FKLTodayFireVideoListTVC.h */,
+				BCFE6E451EF54AF300CB6F24 /* FKLTodayFireVideoListTVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BCFE6E3B1EF543B300CB6F24 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCFE6E471EF5705200CB6F24 /* FKLCategoryModel.h */,
+				BCFE6E481EF5705200CB6F24 /* FKLCategoryModel.m */,
+				BCFE6E4A1EF5707400CB6F24 /* FKLDownLoadVoiceModel.h */,
+				BCFE6E4B1EF5707400CB6F24 /* FKLDownLoadVoiceModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCFE6E3C1EF543B300CB6F24 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BCFE6E4D1EF570A000CB6F24 /* FKLTodayFireVoiceCell.h */,
+				BCFE6E4E1EF570A000CB6F24 /* FKLTodayFireVoiceCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCFE6E3D1EF54A7700CB6F24 /* DataTool */ = {
+			isa = PBXGroup;
+			children = (
+				BCFE6E3E1EF54A9C00CB6F24 /* FKLTodayFireDataTool.h */,
+				BCFE6E3F1EF54A9C00CB6F24 /* FKLTodayFireDataTool.m */,
+			);
+			name = DataTool;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -293,9 +424,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC20AF211EF4C10000EE1461 /* Build configuration list for PBXNativeTarget "FKLDownLoadListen" */;
 			buildPhases = (
+				849AD656FDC05EACC052B136 /* [CP] Check Pods Manifest.lock */,
 				BC20AEF01EF4C10000EE1461 /* Sources */,
 				BC20AEF11EF4C10000EE1461 /* Frameworks */,
 				BC20AEF21EF4C10000EE1461 /* Resources */,
+				ABA3F6297946810A6342D644 /* [CP] Embed Pods Frameworks */,
+				0E66625B39FB5DE29526D689 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -310,9 +444,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC20AF241EF4C10000EE1461 /* Build configuration list for PBXNativeTarget "FKLDownLoadListenTests" */;
 			buildPhases = (
+				DC213205BE9C6EF4F2F798E5 /* [CP] Check Pods Manifest.lock */,
 				BC20AF091EF4C10000EE1461 /* Sources */,
 				BC20AF0A1EF4C10000EE1461 /* Frameworks */,
 				BC20AF0B1EF4C10000EE1461 /* Resources */,
+				5C5DA79360C9F4E2F5B396AE /* [CP] Embed Pods Frameworks */,
+				AEEF4B2B2574DBD36BBBDE1D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -328,9 +465,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC20AF271EF4C10000EE1461 /* Build configuration list for PBXNativeTarget "FKLDownLoadListenUITests" */;
 			buildPhases = (
+				820286614A8943441C21C317 /* [CP] Check Pods Manifest.lock */,
 				BC20AF141EF4C10000EE1461 /* Sources */,
 				BC20AF151EF4C10000EE1461 /* Frameworks */,
 				BC20AF161EF4C10000EE1461 /* Resources */,
+				AD069C0796E587D20B47DDB9 /* [CP] Embed Pods Frameworks */,
+				C378337D9C426EF9B807D370 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -414,21 +554,166 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E66625B39FB5DE29526D689 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FKLDownLoadListen/Pods-FKLDownLoadListen-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C5DA79360C9F4E2F5B396AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FKLDownLoadListenTests/Pods-FKLDownLoadListenTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		820286614A8943441C21C317 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		849AD656FDC05EACC052B136 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ABA3F6297946810A6342D644 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FKLDownLoadListen/Pods-FKLDownLoadListen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD069C0796E587D20B47DDB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FKLDownLoadListenUITests/Pods-FKLDownLoadListenUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEEF4B2B2574DBD36BBBDE1D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FKLDownLoadListenTests/Pods-FKLDownLoadListenTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C378337D9C426EF9B807D370 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FKLDownLoadListenUITests/Pods-FKLDownLoadListenUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC213205BE9C6EF4F2F798E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BC20AEF01EF4C10000EE1461 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BC20AF5B1EF4D61900EE1461 /* FKLSegmentBarConfigure.m in Sources */,
+				BCFE6E431EF54ACC00CB6F24 /* FKLTodayFireMainVC.m in Sources */,
+				BCFE6E4C1EF5707400CB6F24 /* FKLDownLoadVoiceModel.m in Sources */,
 				BC20AF5A1EF4D61900EE1461 /* FKLSementBarVC.m in Sources */,
+				BCFE6E381EF53F9A00CB6F24 /* FKLSessionManager.m in Sources */,
 				BC20AF331EF4C2F800EE1461 /* FKLDownLoadBaseTVC.m in Sources */,
+				BCFE6E491EF5705200CB6F24 /* FKLCategoryModel.m in Sources */,
 				BC20AF3F1EF4C3D300EE1461 /* FKLDownLoadListernMainVC.m in Sources */,
+				BCFE6E401EF54A9C00CB6F24 /* FKLTodayFireDataTool.m in Sources */,
 				BC20AEFF1EF4C10000EE1461 /* ViewController.m in Sources */,
 				BC20AF4E1EF4D0C300EE1461 /* FKLDownLoadView.m in Sources */,
 				BC20AEFC1EF4C10000EE1461 /* AppDelegate.m in Sources */,
+				BCFE6E4F1EF570A000CB6F24 /* FKLTodayFireVoiceCell.m in Sources */,
 				BC20AF5C1EF4D61900EE1461 /* FKLSegmentBar.m in Sources */,
 				BC20AF5F1EF4D68800EE1461 /* UIView+FKLSegmentBar.m in Sources */,
 				BC20AF391EF4C35500EE1461 /* FKLDownLoadedVoiceTVC.m in Sources */,
+				BCFE6E461EF54AF300CB6F24 /* FKLTodayFireVideoListTVC.m in Sources */,
 				BC20AF361EF4C33200EE1461 /* FKLAlbumTVC.m in Sources */,
 				BC20AEF91EF4C10000EE1461 /* main.m in Sources */,
 				BC20AF3C1EF4C37000EE1461 /* FKLDownLoadingTVC.m in Sources */,
@@ -578,6 +863,7 @@
 		};
 		BC20AF221EF4C10000EE1461 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE03F9F8243D01308BEB13F0 /* Pods-FKLDownLoadListen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FKLDownLoadListen/Info.plist;
@@ -589,6 +875,7 @@
 		};
 		BC20AF231EF4C10000EE1461 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92109D8A0E49B7DBF01ADB89 /* Pods-FKLDownLoadListen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FKLDownLoadListen/Info.plist;
@@ -600,6 +887,7 @@
 		};
 		BC20AF251EF4C10000EE1461 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 174D2ED2F8D972420A0E5B43 /* Pods-FKLDownLoadListenTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FKLDownLoadListenTests/Info.plist;
@@ -612,6 +900,7 @@
 		};
 		BC20AF261EF4C10000EE1461 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4583F4A4F65FFD1606EE6943 /* Pods-FKLDownLoadListenTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FKLDownLoadListenTests/Info.plist;
@@ -624,6 +913,7 @@
 		};
 		BC20AF281EF4C10000EE1461 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED0A1347C663D50661CD8FD6 /* Pods-FKLDownLoadListenUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FKLDownLoadListenUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -635,6 +925,7 @@
 		};
 		BC20AF291EF4C10000EE1461 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8FC3AAAD9B1814B680F8417 /* Pods-FKLDownLoadListenUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FKLDownLoadListenUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
