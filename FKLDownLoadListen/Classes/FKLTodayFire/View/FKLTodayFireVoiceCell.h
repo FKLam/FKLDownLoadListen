@@ -10,4 +10,10 @@
 
 @interface FKLTodayFireVoiceCell : UITableViewCell
 
+@property (nonatomic, strong) UILabel *voiceTitleLabel;
+@property (nonatomic, strong) UILabel *voiceAuthorLabel;
+@property (nonatomic, strong) UILabel *sortNumLable;
+
++ (instancetype)cellWithTableView:(UITableView *)tableView;
+
 @end

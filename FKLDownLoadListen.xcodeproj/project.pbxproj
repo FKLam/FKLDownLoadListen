@@ -35,6 +35,7 @@
 		BCFE6E491EF5705200CB6F24 /* FKLCategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFE6E481EF5705200CB6F24 /* FKLCategoryModel.m */; };
 		BCFE6E4C1EF5707400CB6F24 /* FKLDownLoadVoiceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFE6E4B1EF5707400CB6F24 /* FKLDownLoadVoiceModel.m */; };
 		BCFE6E4F1EF570A000CB6F24 /* FKLTodayFireVoiceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFE6E4E1EF570A000CB6F24 /* FKLTodayFireVoiceCell.m */; };
+		BCFE6E531EF57F3700CB6F24 /* FKLTodayFireVoiceCellPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFE6E521EF57F3700CB6F24 /* FKLTodayFireVoiceCellPresenter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +111,8 @@
 		BCFE6E4B1EF5707400CB6F24 /* FKLDownLoadVoiceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLDownLoadVoiceModel.m; sourceTree = "<group>"; };
 		BCFE6E4D1EF570A000CB6F24 /* FKLTodayFireVoiceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLTodayFireVoiceCell.h; sourceTree = "<group>"; };
 		BCFE6E4E1EF570A000CB6F24 /* FKLTodayFireVoiceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLTodayFireVoiceCell.m; sourceTree = "<group>"; };
+		BCFE6E511EF57F3700CB6F24 /* FKLTodayFireVoiceCellPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLTodayFireVoiceCellPresenter.h; sourceTree = "<group>"; };
+		BCFE6E521EF57F3700CB6F24 /* FKLTodayFireVoiceCellPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLTodayFireVoiceCellPresenter.m; sourceTree = "<group>"; };
 		CF2658318E942AE2896598F8 /* Pods_FKLDownLoadListenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FKLDownLoadListenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8FC3AAAD9B1814B680F8417 /* Pods-FKLDownLoadListenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FKLDownLoadListenUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FKLDownLoadListenUITests/Pods-FKLDownLoadListenUITests.release.xcconfig"; sourceTree = "<group>"; };
 		ED0A1347C663D50661CD8FD6 /* Pods-FKLDownLoadListenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FKLDownLoadListenUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FKLDownLoadListenUITests/Pods-FKLDownLoadListenUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -369,6 +372,7 @@
 		BCFE6E391EF543B300CB6F24 /* FKLTodayFire */ = {
 			isa = PBXGroup;
 			children = (
+				BCFE6E501EF57EFB00CB6F24 /* Presenter */,
 				BCFE6E3D1EF54A7700CB6F24 /* DataTool */,
 				BCFE6E3A1EF543B300CB6F24 /* Controller */,
 				BCFE6E3B1EF543B300CB6F24 /* Model */,
@@ -415,6 +419,15 @@
 				BCFE6E3F1EF54A9C00CB6F24 /* FKLTodayFireDataTool.m */,
 			);
 			name = DataTool;
+			sourceTree = "<group>";
+		};
+		BCFE6E501EF57EFB00CB6F24 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				BCFE6E511EF57F3700CB6F24 /* FKLTodayFireVoiceCellPresenter.h */,
+				BCFE6E521EF57F3700CB6F24 /* FKLTodayFireVoiceCellPresenter.m */,
+			);
+			name = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -713,6 +726,7 @@
 				BC20AF5C1EF4D61900EE1461 /* FKLSegmentBar.m in Sources */,
 				BC20AF5F1EF4D68800EE1461 /* UIView+FKLSegmentBar.m in Sources */,
 				BC20AF391EF4C35500EE1461 /* FKLDownLoadedVoiceTVC.m in Sources */,
+				BCFE6E531EF57F3700CB6F24 /* FKLTodayFireVoiceCellPresenter.m in Sources */,
 				BCFE6E461EF54AF300CB6F24 /* FKLTodayFireVideoListTVC.m in Sources */,
 				BC20AF361EF4C33200EE1461 /* FKLAlbumTVC.m in Sources */,
 				BC20AEF91EF4C10000EE1461 /* main.m in Sources */,

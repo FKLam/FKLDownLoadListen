@@ -8,10 +8,11 @@
 
 #import "FKLTodayFireVideoListTVC.h"
 #import "FKLTodayFireDataTool.h"
+#import "FKLTodayFireVoiceCellPresenter.h"
 
 @interface FKLTodayFireVideoListTVC ()
 
-@property (nonatomic, strong) NSArray<FKLDownLoadVoiceModel *> *voiceMs;
+@property (nonatomic, strong) NSArray<FKLTodayFireVoiceCellPresenter *> *presenterMs;
 
 @end
 
@@ -35,26 +36,41 @@
 - (void)loadData {
     __weak typeof( self ) weakSelf = self;
     [[FKLTodayFireDataTool shareInstance] getVoiceMsKey:self.loadKey resultBlock:^(NSArray<FKLDownLoadVoiceModel *> *voiceMs) {
-        weakSelf.voiceMs = voiceMs;
+        NSMutableArray *ps = [NSMutableArray array];
+        for ( FKLDownLoadVoiceModel *model in voiceMs ) {
+            FKLTodayFireVoiceCellPresenter *presenter = [[FKLTodayFireVoiceCellPresenter alloc] init];
+            presenter.voiceM = model;
+            [ps addObject:presenter];
+        }
+        weakSelf.presenterMs = ps;
     }];
 }
 
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
+    return self.presenterMs.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    FKLTodayFireVoiceCell *cell = [FKLTodayFireVoiceCell cellWithTableView:tableView];
+    FKLTodayFireVoiceCellPresenter *presenter = self.presenterMs[indexPath.row];
+    presenter.voiceM.sortNum = indexPath.row + 1;
+    [presenter bindToCell:cell];
+    return cell;
 }
 
 #pragma mark - Setter methods
 
-- (void)setVoiceMs:(NSArray<FKLDownLoadVoiceModel *> *)voiceMs {
-    _voiceMs = voiceMs;
+
+
+- (void)setPresenterMs:(NSArray<FKLTodayFireVoiceCellPresenter *> *)presenterMs {
+    _presenterMs = presenterMs;
+    
     [self.tableView reloadData];
 }
 

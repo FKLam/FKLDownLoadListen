@@ -8,6 +8,11 @@
 
 #import "FKLTodayFireVoiceCell.h"
 
+@interface FKLTodayFireVoiceCell ()
+
+
+@end
+
 @implementation FKLTodayFireVoiceCell
 
 - (void)awakeFromNib {

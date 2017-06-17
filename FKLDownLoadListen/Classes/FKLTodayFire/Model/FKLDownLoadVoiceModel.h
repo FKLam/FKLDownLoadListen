@@ -10,4 +10,9 @@
 
 @interface FKLDownLoadVoiceModel : NSObject
 
+@property (nonatomic, copy) NSString *title;
+@property (nonatomic, copy) NSString *nickname;
+@property (nonatomic, assign) NSInteger sortNum;
+@property (nonatomic, copy) NSString *playPathAacv164;
+
 @end
