@@ -14,16 +14,21 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - FKFMBase (0.2.0):
+    - FKFMBase/Network (= 0.2.0)
+  - FKFMBase/Network (0.2.0):
+    - AFNetworking (~> 3.1.0)
   - MJExtension (3.0.13)
 
 DEPENDENCIES:
-  - AFNetworking (~> 3.1.0)
+  - FKFMBase (~> 0.2.0)
   - MJExtension (~> 3.0.13)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  FKFMBase: 2d131b2e1c064af928d50b7f5d76ca8820a29917
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
 
-PODFILE CHECKSUM: 30e334860d448c8c09c284d1bdc9bfb918e6d062
+PODFILE CHECKSUM: a1249107c9790f7d3e1dabba2977dc659badd3ac
 
 COCOAPODS: 1.2.1

@@ -1,0 +1,6 @@
+framework module FKFMBase {
+  umbrella header "FKFMBase-umbrella.h"
+
+  export *
+  module * { export * }
+}

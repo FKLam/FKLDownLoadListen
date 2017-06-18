@@ -28,7 +28,6 @@
 		BC20AF5B1EF4D61900EE1461 /* FKLSegmentBarConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = BC20AF561EF4D61900EE1461 /* FKLSegmentBarConfigure.m */; };
 		BC20AF5C1EF4D61900EE1461 /* FKLSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BC20AF591EF4D61900EE1461 /* FKLSegmentBar.m */; };
 		BC20AF5F1EF4D68800EE1461 /* UIView+FKLSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BC20AF5E1EF4D68800EE1461 /* UIView+FKLSegmentBar.m */; };
-		BCFE6E381EF53F9A00CB6F24 /* FKLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFE6E371EF53F9A00CB6F24 /* FKLSessionManager.m */; };
 		BCFE6E401EF54A9C00CB6F24 /* FKLTodayFireDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFE6E3F1EF54A9C00CB6F24 /* FKLTodayFireDataTool.m */; };
 		BCFE6E431EF54ACC00CB6F24 /* FKLTodayFireMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFE6E421EF54ACC00CB6F24 /* FKLTodayFireMainVC.m */; };
 		BCFE6E461EF54AF300CB6F24 /* FKLTodayFireVideoListTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFE6E451EF54AF300CB6F24 /* FKLTodayFireVideoListTVC.m */; };
@@ -97,8 +96,6 @@
 		BC20AF591EF4D61900EE1461 /* FKLSegmentBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLSegmentBar.m; sourceTree = "<group>"; };
 		BC20AF5D1EF4D68800EE1461 /* UIView+FKLSegmentBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FKLSegmentBar.h"; sourceTree = "<group>"; };
 		BC20AF5E1EF4D68800EE1461 /* UIView+FKLSegmentBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FKLSegmentBar.m"; sourceTree = "<group>"; };
-		BCFE6E361EF53F9A00CB6F24 /* FKLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLSessionManager.h; sourceTree = "<group>"; };
-		BCFE6E371EF53F9A00CB6F24 /* FKLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLSessionManager.m; sourceTree = "<group>"; };
 		BCFE6E3E1EF54A9C00CB6F24 /* FKLTodayFireDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLTodayFireDataTool.h; sourceTree = "<group>"; };
 		BCFE6E3F1EF54A9C00CB6F24 /* FKLTodayFireDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLTodayFireDataTool.m; sourceTree = "<group>"; };
 		BCFE6E411EF54ACC00CB6F24 /* FKLTodayFireMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLTodayFireMainVC.h; sourceTree = "<group>"; };
@@ -288,7 +285,6 @@
 		BC20AF2F1EF4C22A00EE1461 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				BCFE6E351EF53F6200CB6F24 /* Network */,
 				BCFE6E341EF53F3B00CB6F24 /* Category */,
 				BC20AF4F1EF4D61900EE1461 /* Lib */,
 				BC20AEFA1EF4C10000EE1461 /* AppDelegate.h */,
@@ -358,15 +354,6 @@
 			children = (
 			);
 			name = Category;
-			sourceTree = "<group>";
-		};
-		BCFE6E351EF53F6200CB6F24 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				BCFE6E361EF53F9A00CB6F24 /* FKLSessionManager.h */,
-				BCFE6E371EF53F9A00CB6F24 /* FKLSessionManager.m */,
-			);
-			name = Network;
 			sourceTree = "<group>";
 		};
 		BCFE6E391EF543B300CB6F24 /* FKLTodayFire */ = {
@@ -714,7 +701,6 @@
 				BCFE6E431EF54ACC00CB6F24 /* FKLTodayFireMainVC.m in Sources */,
 				BCFE6E4C1EF5707400CB6F24 /* FKLDownLoadVoiceModel.m in Sources */,
 				BC20AF5A1EF4D61900EE1461 /* FKLSementBarVC.m in Sources */,
-				BCFE6E381EF53F9A00CB6F24 /* FKLSessionManager.m in Sources */,
 				BC20AF331EF4C2F800EE1461 /* FKLDownLoadBaseTVC.m in Sources */,
 				BCFE6E491EF5705200CB6F24 /* FKLCategoryModel.m in Sources */,
 				BC20AF3F1EF4C3D300EE1461 /* FKLDownLoadListernMainVC.m in Sources */,
